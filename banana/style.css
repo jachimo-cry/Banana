@@ -1,0 +1,371 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #222222;
+  }
+  
+  .container {
+    background-image: url("../img/blockchain.jpg");
+    background-size: cover; 
+    padding: 150px;
+     
+  }
+  .container h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: absolute; 
+    color: #C2B369;
+    top: 110px;
+    left: 20px;
+    width: 50%;
+  }
+  
+  .container p {
+    font-size: 16px;
+    text-align: left; 
+    font-weight: 500;
+    position: absolute;
+    top: 165px;
+    left: 20px;
+    width: 40%;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 2px;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+  
+  .logo img {
+    max-width: 25%;
+    height: auto;
+    margin-right: 40px;
+    }
+     
+  /* Navigation styles */
+  .navMenu a {
+    float:left;
+    text-transform:uppercase;
+    color:#ffffff;
+    font-weight:bolder;
+    transition:all 0.3s linear
+  }
+  
+  .navMenu a:hover {
+    color: #C2B369;
+    
+  }
+  a{
+    display:block;
+    padding:1em 2em;
+    text-decoration:none;
+  }
+  /* Section styles */
+  .section-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .section-content {
+    font-size: 16px;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .section-content {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Call to action styles */
+  .cta {
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    transform: translateX(25%);
+    width: 15%;
+
+  }
+  
+  .cta a {
+    background-color: #C2B369;
+    padding: 16px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+/* About */
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about h2 {
+  font-size: 25px;
+  color: #C2B369;
+  text-align: center;
+}
+.about h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  padding: 20px;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.imagen1,
+.imagen2,
+.imagen3 {
+  text-align: center;
+  border: 1px solid #C2B369; 
+  border-radius: 8px;
+  padding: 5px;/
+}
+
+.items h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #C2B369;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.items p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.items img {
+  max-width: 20%;
+  border-radius: 8px;
+}
+.products {
+  background-color: #222222;
+  padding: 6.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products h2 {
+  color: #C2B369;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.products p {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+/* Estilos para cada producto individual */
+.item {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+  width: calc(33.33% - 15px);
+  height: 310px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.item h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #C2B369;
+  margin: 15px 0;
+}
+
+.item p {
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.6;
+  margin: 0;
+  max-height: calc(4 * 1.6 * 15px);
+}
+
+.item img {
+  max-width: 25%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+/* Reset de estilos para el blog */
+.blog {
+  line-height: 1.6;
+  color: #C2B369;
+}
+
+.blog h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+/* Reset de estilos para el blog */
+.blog {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #C2B369;
+}
+
+.blog h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para las entradas del blog */
+.blog-entries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-entry {
+  width: calc(50% - 5px);
+  margin-bottom: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px; /* Hacemos que las puntas sean medias circulares */
+  box-shadow: 0 1px 2px rgb(255, 218, 5);
+}
+
+.blog-entry__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0; /* Ajustamos el radio solo en las esquinas superiores */
+}
+
+.blog-entry__content {
+  padding: 20px;
+}
+
+.blog-entry__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-entry__info {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 10px;
+}
+
+.blog-entry__text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.blog-entry__link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #C2B369;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.blog-entry__link:hover {
+  background-color: #C2B369;
+}
+  /* Footer styles */
+  footer {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+   
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Scroll animation */
+  section.in-view {
+    opacity: 2;
+  }
+  
+  /* Spacing */
+  header,
+  nav,
+  section,
+  footer {
+    padding: 10px;
+  }
+  
+  /* Grid layout */
+  .container {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  /* Contrast colors */
+  nav ul li a,
+  .cta a {
+    color: #ffffff;   
+  }
+  
+  .body {
+    color: #ffffff;
+    background-color: #222222;
+  }
+  
+
+
+  
